@@ -1,0 +1,60 @@
+ /* CSS note */
+ /* CSS Selector */
+
+/* CSS CLASS */
+.head{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+    font-family:fantasy;
+    width: 100%;
+}
+
+body{
+    margin:0px;
+}
+img{
+    margin-top: 5px;
+    width: 95%;
+}
+
+.main{
+    background-color: #eeeeee;
+    /* row align */
+    display:flex; 
+    /* horizontal align */
+    justify-content: center;
+    /* for things go down */
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: #ccddee;
+    text-align: center;
+    width: 280px;
+    margin: 10px;
+}
+
+.button{
+    margin:10px;
+}
+
+
+/* CSS Media Query */
+@media (max-width: 1250px) {
+    .item{
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .item{
+        width: 95%;
+
+    }
+    .head{
+        font-size: 20px;
+    }
+}
